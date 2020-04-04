@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".DisplayMessageActivity">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="441dp"
+        android:layout_height="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="?attr/colorAccent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="257dp"
+        android:layout_height="42dp"
+        android:text="INS Joan d'Àustria"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+        app:layout_constraintEnd_toStartOf="@+id/imageView12"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView18"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="61dp"
+        android:layout_height="63dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toStartOf="@+id/imageView10"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/jda" />
+
+    <EditText
+        android:id="@+id/form_txt_nom"
+        style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+        android:layout_width="273dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Nom d'alumne"
+        android:inputType="textPersonName"
+        android:shadowColor="#17FFFFFF"
+        android:text=""
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#252525"
+        android:textColorHint="#8F8F8F"
+        app:layout_constraintBottom_toTopOf="@+id/btnDesar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.461" />
+
+    <EditText
+        android:id="@+id/form_txt_n1"
+        android:layout_width="255dp"
+        android:layout_height="61dp"
+        android:autoText="false"
+        android:ems="10"
+        android:hint="Nota 1a avaluació"
+        android:inputType="number|textPersonName"
+        android:text=""
+        android:textColor="#252525"
+        android:textColorHint="#8F8F8F"
+        app:layout_constraintBottom_toTopOf="@+id/btnDesar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.613" />
+
+    <EditText
+        android:id="@+id/form_txt_n2"
+        android:layout_width="255dp"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:hint="Nota 2a avaluació"
+        android:inputType="number|textPersonName"
+        android:text=""
+        android:textColor="#252525"
+        android:textColorHint="#8F8F8F"
+        app:layout_constraintBottom_toTopOf="@+id/btnDesar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.745" />
+
+    <EditText
+        android:id="@+id/form_txt_n3"
+        android:layout_width="255dp"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:hint="Nota 3a avaluació"
+        android:inputType="number|textPersonName"
+        android:text=""
+        android:textColor="#252525"
+        android:textColorHint="#8F8F8F"
+        app:layout_constraintBottom_toTopOf="@+id/btnDesar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.876" />
+
+    <Button
+        android:id="@+id/btnDesar"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="afegir"
+        android:shadowColor="#797979"
+        android:text="DESAR"
+        android:textColor="#FAFFFFFF"
+        android:textColorLink="#9465A0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.762" />
+
+    <TextView
+        android:id="@+id/titleAfegir"
+        android:layout_width="200dp"
+        android:layout_height="59dp"
+        android:text="Afegir alumne"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#2E2E2E"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/form_txt_nom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.878" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="50dp"
+        android:layout_height="46dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.999"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.600"
+        app:srcCompat="@drawable/afegir" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
