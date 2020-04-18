@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#F2F3F4"
     tools:context=".DisplayMessageActivity">
 
     <ImageView
@@ -12,6 +12,7 @@
         android:layout_width="441dp"
         android:layout_height="64dp"
         app:layout_constraintBottom_toTopOf="@+id/editText"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,8 +49,9 @@
     <EditText
         android:id="@+id/form_txt_nom"
         style="@style/Base.Widget.MaterialComponents.TextInputEditText"
-        android:layout_width="273dp"
-        android:layout_height="57dp"
+        android:layout_width="241dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
         android:ems="10"
         android:hint="Nom d'alumne"
         android:inputType="textPersonName"
@@ -58,62 +60,71 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#252525"
         android:textColorHint="#8F8F8F"
+        android:gravity="center_horizontal"
         app:layout_constraintBottom_toTopOf="@+id/btnDesar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.461" />
+        app:layout_constraintVertical_bias="0.460" />
 
     <EditText
         android:id="@+id/form_txt_n1"
-        android:layout_width="255dp"
-        android:layout_height="61dp"
+        android:layout_width="241dp"
+        android:layout_height="50dp"
         android:autoText="false"
+        android:background="#FFFFFF"
         android:ems="10"
         android:hint="Nota 1a avaluació"
+        android:gravity="center_horizontal"
         android:inputType="number|textPersonName"
         android:text=""
         android:textColor="#252525"
         android:textColorHint="#8F8F8F"
         app:layout_constraintBottom_toTopOf="@+id/btnDesar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.613" />
+        app:layout_constraintVertical_bias="0.620" />
 
     <EditText
         android:id="@+id/form_txt_n2"
-        android:layout_width="255dp"
-        android:layout_height="61dp"
+        android:layout_width="241dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
         android:ems="10"
         android:hint="Nota 2a avaluació"
+        android:gravity="center_horizontal"
         android:inputType="number|textPersonName"
         android:text=""
         android:textColor="#252525"
         android:textColorHint="#8F8F8F"
         app:layout_constraintBottom_toTopOf="@+id/btnDesar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.745" />
+        app:layout_constraintVertical_bias="0.780" />
 
     <EditText
         android:id="@+id/form_txt_n3"
-        android:layout_width="255dp"
-        android:layout_height="61dp"
+        android:layout_width="241dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
         android:ems="10"
         android:hint="Nota 3a avaluació"
+        android:gravity="center_horizontal"
         android:inputType="number|textPersonName"
         android:text=""
         android:textColor="#252525"
         android:textColorHint="#8F8F8F"
         app:layout_constraintBottom_toTopOf="@+id/btnDesar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.876" />
+        app:layout_constraintVertical_bias="0.940" />
 
     <Button
         android:id="@+id/btnDesar"

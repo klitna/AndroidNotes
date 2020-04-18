@@ -4,15 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#F2F3F4"
     tools:context=".ModificarAlumne">
 
     <EditText
         android:id="@+id/nouNota3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="241dp"
+        android:layout_height="50dp"
         android:layout_marginTop="160dp"
+        android:background="#FFFFFF"
         android:ems="10"
+        android:gravity="center_horizontal"
         android:hint="Nova nota 3 avaluació"
         android:inputType="textPersonName"
         android:shadowColor="#686868"
@@ -21,17 +23,19 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.347" />
+        app:layout_constraintVertical_bias="0.57" />
 
     <EditText
         android:id="@+id/nouNota2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="241dp"
+        android:layout_height="50dp"
         android:layout_marginTop="160dp"
+        android:background="#FFFFFF"
         android:ems="10"
+        android:gravity="center_horizontal"
         android:hint="Nova nota 2 avaluació"
         android:inputType="textPersonName"
         android:shadowColor="#686868"
@@ -40,17 +44,20 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.241" />
+        app:layout_constraintVertical_bias="0.41" />
 
     <EditText
         android:id="@+id/nouNota1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+        android:layout_width="241dp"
+        android:layout_height="50dp"
         android:layout_marginTop="160dp"
+        android:background="#FFFFFF"
         android:ems="10"
+        android:gravity="center_horizontal"
         android:hint="Nova nota 1 avaluació"
         android:inputType="textPersonName"
         android:shadowColor="#686868"
@@ -59,17 +66,19 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.135" />
+        app:layout_constraintVertical_bias="0.250" />
 
     <EditText
         android:id="@+id/nouNom"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="241dp"
+        android:layout_height="50dp"
         android:layout_marginTop="160dp"
+        android:background="#FFFFFF"
         android:ems="10"
+        android:gravity="center_horizontal"
         android:hint="Nom d'alumne nou"
         android:inputType="textPersonName"
         android:shadowColor="#686868"
@@ -78,10 +87,10 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.029" />
+        app:layout_constraintVertical_bias="0.09" />
 
     <ImageView
         android:id="@+id/imageView13"
@@ -125,10 +134,13 @@
 
     <EditText
         android:id="@+id/editNom"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+        android:layout_width="241dp"
+        android:layout_height="50dp"
         android:layout_marginTop="160dp"
+        android:background="#FFFFFF"
         android:ems="10"
+        android:gravity="center_horizontal"
         android:hint="Alumne a buscar"
         android:inputType="textPersonName"
         android:shadowColor="#686868"
@@ -136,10 +148,10 @@
         android:textColorHint="#919191"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.029" />
+        app:layout_constraintVertical_bias="0.047" />
 
     <Button
         android:id="@+id/btnBuscar"
@@ -165,9 +177,10 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.729" />
+        app:layout_constraintVertical_bias="0.826" />
 
     <TextView
         android:id="@+id/textView"
